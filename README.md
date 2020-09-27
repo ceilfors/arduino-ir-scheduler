@@ -21,7 +21,7 @@ Components used:
 ## Getting the IR raw code
 
 The code in this repository contains a hardcoded raw IR code for Dyson AM09. If you're trying to re-use the code in the repository for other electronic appliances, you'll have to find the raw code that you have to transmit. This is what I did to get the raw IR code:
-1. I've purchased a IR receiver module ([purchased](https://www.ebay.co.uk/itm/KY-022-Infrared-Receiver-Sensor-Module-Detector-IR-TSOP1838-37-9kHz-Arduino-Pic/232749508970))
+1. Get a IR receiver module ([purchased](https://www.ebay.co.uk/itm/KY-022-Infrared-Receiver-Sensor-Module-Detector-IR-TSOP1838-37-9kHz-Arduino-Pic/232749508970))
 2. Use the module in my Arduino
 3. Use [IRreceiveDumpV2](https://github.com/z3t0/Arduino-IRremote/blob/master/examples/IRreceiveDumpV2/IRreceiveDumpV2.ino) example project to dump the raw code
 4. Go to "Arduino Create" serial monitor
